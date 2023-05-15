@@ -1,0 +1,16 @@
+.btn{
+    color: white;
+    border: #836FFF 1px solid;
+    border-radius: ; 
+}
+.btn:hover{
+    background-color: #836FFF;
+    color: white;
+}
+
+p{
+    color: white;
+}
+h4{
+    color: white;
+}

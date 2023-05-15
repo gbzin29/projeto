@@ -1,0 +1,26 @@
+.btn{
+    color: white;
+    border: #836FFF 1px solid;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: #836FFF;
+    color: white;
+    transition: 1.0s;
+}
+
+
+.card{
+    margin-left: 20%;
+    height: 100%;
+}
+
+.card-body{
+    text-align: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-body h5{
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 1px;
+}

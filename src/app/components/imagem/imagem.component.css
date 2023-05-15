@@ -1,0 +1,25 @@
+.carousel-inner{
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+}
+.carousel-item active{
+    text-align: center;
+    align-items: center;
+}
+.carousel-item{
+    text-align: center;
+    align-items: center;
+}
+img{
+    text-align: center;
+    align-items: center;
+    border: 3px red;
+}
+.carousel-control-prev{
+    margin-left: 19%;
+    margin-top: -20px;
+}
+.carousel-control-next{
+    margin-right: 19%;
+}

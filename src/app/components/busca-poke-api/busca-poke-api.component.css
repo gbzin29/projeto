@@ -1,0 +1,51 @@
+:root {
+    --bg-color: #04044c;
+    --secondary-bg-color: #494a7d;
+    --primary-color: #fff;
+    --secondary-color: #25cc88;
+    --text-color: #8789af;
+    --border-color: #20235b;
+  }
+
+label{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    width: 350px;
+    border-radius: 100px;
+}
+
+form{
+    margin-left: 40%;
+    margin-top: 11%;
+}
+
+button{
+    color: black;
+    background-color: #25cc89d8;
+    width: 31%;
+    outline: none;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    
+}
+
+h4{
+    color: #fff;
+    margin-left: 125px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    background-color: #25cc88;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+

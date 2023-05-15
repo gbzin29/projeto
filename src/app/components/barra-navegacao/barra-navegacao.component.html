@@ -1,0 +1,22 @@
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://www.bestlyy-curatedbyquality.co/wp-content/uploads/2016/11/bestlyy-favicon-v2.png" width="35" height="30" class="d-inline-block align-text-top">
+        Bootstrap
+      </a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" #input placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit" (click)="search(input.value); $event.preventDefault()">Search</button>
+      </form>
+    </div>
+  </nav>
+
+<div class="mostrarPoke">
+
+  <img src="{{pokeImage}}" width="150" id="foto"/>
+  <h4>{{pokeName}}</h4>
+  <p>{{pokeHeight}}</p>
+  <p>{{pokePeso}}</p>
+
+
+</div>
